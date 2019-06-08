@@ -12,3 +12,9 @@ config.boyuna = y = ScrH()/3 -250
 config.enine = 15 +0
 
 dosyayı lua/autorun/client'e koyun
+
+![logoreplacer](https://user-images.githubusercontent.com/26165265/59140179-fa62d880-89a2-11e9-95dd-751dfe0b5035.png)
+
+
+
+![logoreplcer2](https://user-images.githubusercontent.com/26165265/59140182-fcc53280-89a2-11e9-8421-9d367dc05652.png)
