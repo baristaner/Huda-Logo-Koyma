@@ -11,4 +11,4 @@ Resimin Sol üst tarafta gözükmesi için önerilen ayarlar
 config.boyuna = y = ScrH()/3 -250
 config.enine = 15 +0
 
-*dosyayı lua/autorun/client'e koyun
+dosyayı lua/autorun/client'e koyun
