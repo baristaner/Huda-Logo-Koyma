@@ -24,7 +24,7 @@ config.boyuna = ScrH()/3 -250 -- Boyuna
 config.enine = 15 +1040 -- Enine
 config.resimh = 200
 config.resimw = 200
-config.logoyufastdlindir = true
+config.logoyufastdlindir = false
 
 --ANLAMIYORSANIZ ELLEMEYIN
 hook.Add( "HUDPaint", "logohudkardes", function()
