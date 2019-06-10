@@ -24,7 +24,6 @@ config.boyuna = ScrH()/3 -250 -- Boyuna
 config.enine = 15 +1040 -- Enine
 config.resimh = 200
 config.resimw = 200
-config.logoyufastdlindir = false
 
 --ANLAMIYORSANIZ ELLEMEYIN
 hook.Add( "HUDPaint", "logohudkardes", function()
@@ -33,11 +32,7 @@ hook.Add( "HUDPaint", "logohudkardes", function()
 	surface.DrawTexturedRect( config.enine,config.boyuna, config.resimh,config.resimw); 
 end)
 
-if SERVER then
-if config.logoyufastdlindir then
-	resource.Addfile("") -- LOGONU YAZ
-end
-end
+
 
 --[[
 CONFIG BILGILERI LUA HAKKINDA HİÇ BİR BİLGİSİ OLMAYANLAR OKUSUN
