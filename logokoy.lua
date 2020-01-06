@@ -18,7 +18,9 @@ local function hud()
 local logohud = vgui.Create( "DHTML")
 logohud:Dock( FILL )
 logohud:SetHTML( [[
-	<img src="https://i.hizliresim.com/bv3NLZ.png" style="width:100px;height:100px;" align="right">
+	<img src="https://i.hizliresim.com/bv3NLZ.png" 
+	style="width:100px;height:100px;" 
+	align="right">
 ]] )
 end
 
