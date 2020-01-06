@@ -1,3 +1,5 @@
+# Logo HUD
+
 
 **İşlevi basit bazı sunucularda görmüşsünüzdür oyununuzda sunucunun logosu sağ üstte sol üstte gözükür çoğu kardeşimiz fazla
 kodlamayı bilmediğinden böyle basit bir scripti paylaşiyim dedim dosyanın içinde bilgiler var bilmiyorsanız okuyun**
@@ -5,8 +7,7 @@ kodlamayı bilmediğinden böyle basit bir scripti paylaşiyim dedim dosyanın i
 
 **Editlemeniz gereken yer**
 ```logohud:SetHTML( [[
-	<img src="https://i.hizliresim.com/bv3NLZ.png" style="width:100px;height:100px;" align="right">
-]] )
+<img src="https://i.hizliresim.com/bv3NLZ.png" style="width:100px;height:100px;" align="right">]] )
 ```
 
 **Nasıl Editlerim?**
