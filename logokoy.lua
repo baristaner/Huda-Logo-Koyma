@@ -1,24 +1,28 @@
+/////////////
+// LOGOHUD //
+////////////
+
 --[[
-CONFIG BILGILERI LUA HAKKINDA HİÇ BİR BİLGİSİ OLMAYANLAR OKUSUN
---------------------------------------------------------------------------------------------
-*dosyayı lua/autorun/client'e koyun
---------------------------------------------------------------------------------------------
+src = "" Logomuzun linki
+style="width:100px";height:100px;"" boyut ayarlamak için
+align="" -- buraya left,right,middle,top,bottom yazabiliriz
+
+left = sol
+right = sağ
+middle = orta
+top = yukarı
+bottom = aşağı
 --]]
 
-config = {}
+local function hud()
+local logohud = vgui.Create( "DHTML")
+logohud:Dock( FILL )
+logohud:SetHTML( [[
+	<img src="https://i.hizliresim.com/bv3NLZ.png" style="width:100px;height:100px;" align="right">
+]] )
+end
 
-config.logo = Material("gm_construct/flatsign");
-config.boyuna = ScrH() * 0.0+150 -- Boyuna 
-config.enine = ScrW() * 0.0+150 -- Enine
-config.resimh = ScrH() * 0.0+150 
-config.resimw = ScrW() * 0.0+150 
-
---ANLAMIYORSANIZ ELLEMEYIN
-hook.Add( "HUDPaint", "logohudkardes", function()
-	surface.SetMaterial(config.logo);
-	surface.SetDrawColor(255,255,255,255) 
-	surface.DrawTexturedRect( config.enine,config.boyuna, config.resimh,config.resimw); 
-end)
-
-
-
+hook.Add("InitPostEntity", "logohud", hud)
+/////////////
+// LOGOHUD //
+////////////
