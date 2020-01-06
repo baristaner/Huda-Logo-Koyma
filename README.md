@@ -1,20 +1,28 @@
-İşlevi basit bazı sunucularda görmüşsünüzdür oyununuzda sunucunun logosu sağ üstte sol üstte gözükür çoğu kardeşimiz fazla
-kodlamayı bilmediğinden böyle basit bir scripti paylaşiyim dedim dosyanın içinde bilgiler var bilmiyorsanız okuyun config ekledim
-o configi düzenleyerek scripti kendinize göre ayarlayabilirsiniz.
+##Logo Hud
 
-Resimin Sağ üst tarafta gözükmesi için önerilen ayarlar
-config.boyuna = ScrH()/3 -250
-config.enine = 15 +1020
-resimin boyutuna göre pozisyona değişmektedir kendinize göre arttırarak azaltarak deneyiniz.
-
-Resimin Sol üst tarafta gözükmesi için önerilen ayarlar
-config.boyuna = y = ScrH()/3 -250
-config.enine = 15 +0
-
-dosyayı lua/autorun/client'e koyun
-
-![logoreplacer](https://user-images.githubusercontent.com/26165265/59140179-fa62d880-89a2-11e9-95dd-751dfe0b5035.png)
+**İşlevi basit bazı sunucularda görmüşsünüzdür oyununuzda sunucunun logosu sağ üstte sol üstte gözükür çoğu kardeşimiz fazla
+kodlamayı bilmediğinden böyle basit bir scripti paylaşiyim dedim dosyanın içinde bilgiler var bilmiyorsanız okuyun""
 
 
+**Editlemeniz gereken yer**
+```logohud:SetHTML( [[
+	<img src="https://i.hizliresim.com/bv3NLZ.png" style="width:100px;height:100px;" align="right">
+]] )
+```
 
-![logoreplcer2](https://user-images.githubusercontent.com/26165265/59140182-fcc53280-89a2-11e9-8421-9d367dc05652.png)
+**Nasıl Editlerim?**
+```
+src = "" Logomuzun linki
+style="width:100px";height:100px;"" boyut ayarlamak için
+align="" -- buraya left,right,middle,top,bottom yazabiliriz
+
+left = sol
+right = sağ
+middle = orta
+top = yukarı
+bottom = aşağı
+```
+_dosyayı lua/autorun/client'e koyun_
+
+
+![hudlogo](https://user-images.githubusercontent.com/26165265/71852166-27b66700-30e9-11ea-8184-140b6e9e90fb.png)
