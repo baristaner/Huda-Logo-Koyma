@@ -12,6 +12,10 @@ right = sağ
 middle = orta
 top = yukarı
 bottom = aşağı
+
+Detaylı ayarlamalar için alignı silip styleı
+style="width:100px;height:100px;position:relative; left: 300px;top: 20px;">
+ile değiştirin left ve topun değerini değiştirerek ayarlayabilirsiniz
 --]]
 
 local function hud()
@@ -21,6 +25,7 @@ logohud:SetHTML( [[
 	<img src="https://i.hizliresim.com/bv3NLZ.png" 
 	style="width:100px;height:100px;" 
 	align="right">
+
 ]] )
 end
 
