@@ -9,7 +9,7 @@ align="" -- buraya left,right,middle,top,bottom yazabiliriz
 
 left = sol
 right = sağ
-middle = orta
+center = orta
 top = yukarı
 bottom = aşağı
 
