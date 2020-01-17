@@ -21,6 +21,9 @@ right = sağ
 middle = orta
 top = yukarı
 bottom = aşağı
+
+
+veya style="width:100px;height:100px;position:relative; left: 300px;top: 20px;"> kullanın daha iyi konumlandırma yapmak için
 ```
 _dosyayı lua/autorun/client'e koyun_
 
